@@ -7,6 +7,7 @@ import { LanguageProvider } from "./components/LanguageContext.jsx";
 // Importaciones de las páginas
 import Education from "./pages/Education.jsx";
 import Experience from "./pages/Experience.jsx";
+import Projects from "./pages/Projects.jsx";
 
 const Appcv = () => {
   return (
@@ -18,6 +19,7 @@ const Appcv = () => {
             <Route index element={null} />
             <Route path="education" element={<Education />} />
             <Route path="experience" element={<Experience />} />
+            <Route path="projects" element={<Projects />} />
           </Route>
         </Routes>
       </Router>

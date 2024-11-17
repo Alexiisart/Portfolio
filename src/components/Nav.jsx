@@ -44,7 +44,13 @@ const Nav = ({ isScrolled }) => {
           {" "}
           {text[language][3]}{" "}
         </Link>
-        {/* <Link to="/projects" className={location.pathname === '/projects' ? 'active' : ''}> {text[language][4]} </Link> */}
+        <Link
+          to="/projects"
+          className={location.pathname === "/projects" ? "active" : ""}
+        >
+          {" "}
+          {text[language][4]}{" "}
+        </Link>
       </nav>
     </>
   );
