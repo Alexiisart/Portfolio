@@ -1029,6 +1029,12 @@ nav a.active {
   box-shadow: 0 0 20px 5px rgba(126, 197, 159, 0.9);
 }
 
+.projects-content-projects-item-info {
+  padding: 1.5rem;
+  background-color: #0e262d;
+  border-radius: 12px;
+}
+
 .projects-content-projects-item {
   display: flex;
   flex-direction: row;
@@ -1248,10 +1254,33 @@ nav a.active {
     transform: translate(-50%, -50%);
   }
   .projects h2 {
-    font-size: 16px;
+    font-size: 14px;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
   .projects p {
-    font-size: 12px;
+    font-size: 10px;
+  }
+
+  .projects label {
+    font-size: 8px;
+  }
+
+  .projects .tecnologias {
+    font-size: 8px;
+  }
+  .projects a {
+    font-size: 6px;
+  }
+
+  .projects video,
+  .projects img {
+    width: 40%;
+  }
+  .projects-content-projects-item-info {
+    padding: 1rem;
+    background-color: #0e262d;
+    border-radius: 8px;
   }
 }
 
